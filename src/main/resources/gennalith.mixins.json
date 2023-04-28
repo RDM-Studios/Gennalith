@@ -1,0 +1,13 @@
+  {
+	"required": true,
+	"package": "com.rdm.gennalith.mixins",
+	"compatibilityLevel": "JAVA_17",
+	"refmap": "gennalith.refmap.json",
+	"mixins": [
+
+	],
+	"client": [
+
+	],
+	"minVersion": "0.8"
+  }

@@ -1,0 +1,94 @@
+modLoader="javafml"
+loaderVersion="[43,)"
+license="MIT License"
+issueTrackerURL="https://github.com/RDM-Studios/Gennalith/issues"
+
+[[mods]]
+modId="gennalith"
+version="${file.jarVersion}"
+displayName="Gennalith"
+logoFile="logo.png"
+credits="RDM Studios"
+authors="RDM Studios"
+description='''Gennalith overhauls Minecraft's terrain generation, allowing for a much higher height and depth cap!'''
+
+# Base
+[[dependencies.gennalith]]
+    modId="forge"
+    mandatory=true
+    versionRange="[43,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.gennalith]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.19,1.19.3)"
+    ordering="NONE"
+    side="BOTH"
+
+# Extras
+# # COMMON
+[[dependencies.gennalith]] 
+    modId="roughlyenoughitems" 
+    mandatory=false 
+    versionRange="[9.1.595,)" 
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.gennalith]] 
+    modId="roughlyenoughresources" 
+    mandatory=false 
+    versionRange="[2.5.2,)" 
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.gennalith]] 
+    modId="architectury" 
+    mandatory=false 
+    versionRange="[6.4.62,)" 
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.gennalith]] 
+    modId="clothconfig" 
+    mandatory=false 
+    versionRange="[8.2.88,)" 
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.gennalith]] 
+    modId="theoneprobe" 
+    mandatory=false 
+    versionRange="[1.19-6.2.2,)" 
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.gennalith]] 
+    modId="spark" 
+    mandatory=false 
+    versionRange="[1.9.45,)" 
+    ordering="NONE"
+    side="BOTH"
+
+# # CLIENT
+[[dependencies.gennalith]] 
+    modId="configured" 
+    mandatory=false 
+    versionRange="[2.1.1,)" 
+    ordering="NONE"
+    side="CLIENT"
+
+[[dependencies.gennalith]] 
+    modId="catalogue" 
+    mandatory=false 
+    versionRange="[1.7.0,)" 
+    ordering="NONE"
+    side="CLIENT"
+
+[[dependencies.gennalith]] 
+    modId="appleskin" 
+    mandatory=false 
+    versionRange="[2.4.2,)" 
+    ordering="NONE"
+    side="CLIENT"
